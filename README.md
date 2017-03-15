@@ -20,29 +20,29 @@ Ok, so here's what I've done so far....
 
 1) installed Pycharm (Python IDE) and Datagrip (SQL IDE) from Jetbrains
 
-2. installed SQLite: download can be found here.  Get the Mac OSX binaries.  This is a light weight SQL shell I'm using to learn SQL.
+2. installed SQLite: download can be found here: https://sqlite.org/download.html.  Get the Mac OSX binaries.  This is a light weight SQL shell I'm using to learn SQL.
 
-3. Download a sample SQLite database (for learning & testing): link
+3. Download a sample SQLite database (for learning & testing) https://chinookdatabase.codeplex.com/releases/view/55681
 Scroll down and download this file: ChinookDatabase1.4_Sqlite.zip
 
 4. In the finder on your machine, move this .zip file out of the downloads folder into a new 'Coding' project folder titled 'Sample Database' make sure this file is nested under 'Aidan' (keep all your files together).  Unzip the file.
 
-5. Open Datagrip.  We need to connect the data source 'Chinook' to Datagrip.  Open 'Data Sources and Drivers' in Datagrip (here's a quick tutorial link)  The Chinook data base is a local file scroll down in the tutorial until you see local files and SQLite.  You need to specify the pathname which is easy, just follow the steps in the tutorial link.  Make sure to click 'download missing drivers' in Datagrip.
+5. Open Datagrip.  We need to connect the data source 'Chinook' to Datagrip.  Open 'Data Sources and Drivers' in Datagrip (here's a quick tutorial: https://www.tutorialspoint.com/sqlite/sqlite_commands.htm)  The Chinook data base is a local file scroll down in the tutorial until you see local files and SQLite.  You need to specify the pathname which is easy, just follow the steps in the tutorial link.  Make sure to click 'download missing drivers' in Datagrip.
 
 6. Now that you've connected your database to your IDE, Datagrip will open project for you and you have a familiar coding shell.  
 
-7.  Now what?  Learn SQL!  Here's a link to the list of commands and a tutorial:  link.  Khan Academy has a SQL course too.  We talk about this and work through exercises.  Here's a link  to the schema for the Chinook Database (a schema is like a map)
+7.  Now what?  Learn SQL!  Here's a link to the list of commands and a tutorial:  https://www.tutorialspoint.com/sqlite/sqlite_commands.htm.  Khan Academy has a SQL course too: https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql.  We talk about this and work through exercises.  Here's a link  to the schema for the Chinook Database (a schema is like a map):http://www.sqlitetutorial.net/sqlite-sample-database/
 
 
 This is all preparation for the next big step.  
 CREATING the SERVER ENVIRONMENT
 
-Read this guide for an overview and lets meet up to story board the process.
-Lots of stuff to learn here.  We are going to be working on setting up a virtual server on our local machine, which we'll call localhost.  Once we feel comfortable that we can set up and install all the necessary components.  We'll take the next step and set up an AWS instance.  We'll create a free test account and install the software on a cloud server.
+Read this guide for an overview and lets meet up to story board the process:https://www.digitalocean.com/community/tutorials/how-to-set-up-an-apache-mysql-and-python-lamp-server-without-frameworks-on-ubuntu-14-04
+Lots of stuff to learn here.  We are going to be working on setting up a virtual server on our local machine, which we'll call localhost.  Once we feel comfortable that we can set up and install all the necessary components.  We'll take the next step and set up an AWS instance.  We'll create a free test account and install the software on a cloud server: https://aws.amazon.com/s/dm/optimization/server-side-test/free-tier/free_np/
 
-We'll practice establishing a secure connection and then working with an SSL certificate.
+We'll practice establishing a secure connection and then working with an SSL certificate: https://www.globalsign.com/en/ssl-information-center/what-is-an-ssl-certificate/
 
-If the developers on the front end team work with Django  you will have a complete stack written entirely in Python!!
+If the developers on the front end team work with Django  you will have a complete stack written entirely in Python!! https://www.djangoproject.com/
 
-As promised, here's the link for the Jetbrains tools to connect Pycharm with Github!!
+As promised, here's the link for the Jetbrains tools to connect Pycharm with Github!! https://www.jetbrains.com/help/pycharm/2016.3/using-github-integration.html
 
